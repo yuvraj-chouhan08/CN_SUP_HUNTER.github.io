@@ -5,7 +5,6 @@
 // e2979ddcc9feda9df30ea8bd4086bf43988ad1fa
 
 
-
 //*-------------------------------------- Selecting the element from DOM ----------------------------------------------------
 let searchBar = document.getElementById("search-bar");
 let searchResults = document.getElementById("search-results");
@@ -16,8 +15,8 @@ searchBar.addEventListener("input", () => searchHeros(searchBar.value));
 // function for API call
 async function searchHeros(textSearched) {
 
-     // let PUBLIC_KEY = "9ab871748d83ae2eb5527ffd69e034de";
-     // let PRIVATE_KEY = "ad79003cf7316d9bd72c6eda71d1c93d7e807e90";
+     // let PUBLIC_KEY = "662ce8f7ea723e19792d11ee3502ca41";
+     // let PRIVATE_KEY = "e2979ddcc9feda9df30ea8bd4086bf43988ad1fa";
 
      // let ts = new Date().getTime();
      // let hash = CryptoJS.MD5(ts + PRIVATE_KEY + PUBLIC_KEY).toString();
